@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_playlist_add_check" android:id="@id/nav_notes" android:title="@string/all_notes" fontPath="fonts/whitney.ttf" />
+    <item android:icon="@drawable/ic_delete_black_24dp" android:id="@id/nav_bin" android:title="@string/bin" fontPath="fonts/whitney.ttf" />
+    <item android:icon="@drawable/ic_unarchive_24" android:id="@id/nav_backup" android:title="@string/backup" fontPath="fonts/whitney.ttf" />
+    <item android:title="@string/application">
+        <menu>
+            <item android:icon="@drawable/ic_favorite" android:id="@id/nav_about" android:title="@string/about" fontPath="fonts/whitney.ttf" />
+            <item android:icon="@drawable/ic_card_membership_black_24dp" android:id="@id/nav_premium" android:title="@string/premium" fontPath="fonts/whitney.ttf" />
+            <item android:icon="@drawable/ic_settings" android:id="@id/nav_settings" android:title="@string/settings" fontPath="fonts/whitney.ttf" />
+        </menu>
+    </item>
+</menu>

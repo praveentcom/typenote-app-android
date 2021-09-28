@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:background="@color/colorIcons" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.CoordinatorLayout android:id="@id/fabView" android:background="?android:selectableItemBackground" android:focusable="true" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="56.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <android.support.design.widget.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" app:backgroundTint="@color/colorAccent" app:fabSize="normal" app:srcCompat="@drawable/ic_add" />
+        <android.support.v7.widget.RecyclerView android:id="@id/recyclerView" android:background="@color/colorIcons" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/placeholder" android:background="@color/colorIcons" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textColor="@color/colorPrimary" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/empty_list" android:drawableTop="@drawable/main_placeholder" android:layout_centerVertical="true" android:contentDescription="@string/empty_list_image" android:animateLayoutChanges="true" android:textAlignment="center" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        </RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/app_bar_navigation" />
+    <android.support.design.widget.NavigationView android:layout_gravity="start" android:id="@id/nav_view" android:background="@color/colorIcons" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="fill_parent" app:headerLayout="@layout/nav_header_navigation" app:menu="@menu/navigation_drawer" />
+</android.support.v4.widget.DrawerLayout>

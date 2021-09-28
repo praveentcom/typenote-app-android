@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <pl.droidsonroids.gif.GifImageView android:layout_gravity="center" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="32.0dip" android:src="@drawable/propen" android:scaleType="center" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/colorPrimaryText" android:id="@id/pro_head" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/you_re_not_premium" android:animateLayoutChanges="true" android:textAlignment="center" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/colorSecondaryText" android:id="@id/pro_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/upgrade_to_enjoy_an_ad_free_experience_and_get_assured_of_lifetime_premium_with_all_new_feature_additions" android:animateLayoutChanges="true" android:textAlignment="center" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/pro_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <Button android:textColor="@color/colorIcons" android:layout_gravity="center" android:id="@id/pro_upgrade" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="@string/upgrade" android:backgroundTint="@color/colorPrimary" />
+            <Button android:textColor="@color/colorIcons" android:layout_gravity="center" android:id="@id/pro_restore" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="@string/restore" android:backgroundTint="@color/colorPrimary" />
+        </LinearLayout>
+        <Button android:textColor="@color/colorIcons" android:layout_gravity="center" android:id="@id/pro_redeem" android:layout_width="240.0dip" android:layout_height="wrap_content" android:text="@string/redeem_promo_code" android:backgroundTint="@color/colorPrimary" />
+        <TextView android:id="@id/pro_help" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/already_purchased_but_uninstalled_ncontact_hello_praveen_io_or_hellopraveenio_nto_get_back_your_premium_status" android:textAlignment="center" />
+    </LinearLayout>
+</FrameLayout>

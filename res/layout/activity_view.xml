@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/colorIcons" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textColor="@color/colorPrimaryText" android:id="@id/view_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:maxLines="1" android:maxLength="40" android:animateLayoutChanges="true" android:textIsSelectable="true" android:layout_marginStart="16.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/colorSecondaryText" android:id="@id/view_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:animateLayoutChanges="true" android:textIsSelectable="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <View android:background="@color/colorDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="16.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="@color/colorDivider" android:id="@id/view_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/colorIcons" android:id="@id/view_important" android:background="@drawable/roundcorner2" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/important_caps" android:animateLayoutChanges="true" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="32.0dip" />
+    </LinearLayout>
+</ScrollView>

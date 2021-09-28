@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/colorIcons" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip">
+        <android.support.design.widget.TextInputEditText android:textColor="@color/colorPrimaryText" android:textColorHint="@color/colorSecondaryText" android:gravity="top" android:layout_gravity="top" android:id="@id/add_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/note_title_optional" android:maxLines="1" android:maxLength="40" android:inputType="textEmailAddress" android:backgroundTint="@color/colorIcons" />
+        <View android:background="@color/colorDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <android.support.design.widget.TextInputEditText android:textSize="16.0sp" android:textColor="@color/colorSecondaryText" android:textColorHint="@color/colorSecondaryText" android:gravity="top" android:layout_gravity="top" android:id="@id/add_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/add_note" android:backgroundTint="@color/colorIcons" />
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton android:id="@id/add_fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" app:backgroundTint="@color/colorAccent" app:fabSize="normal" app:srcCompat="@drawable/ic_check" />
+</RelativeLayout>
